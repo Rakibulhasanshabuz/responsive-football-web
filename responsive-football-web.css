@@ -20,30 +20,33 @@ header{
 /* Header Maintain */
 
 
-.half-width h1, a{
+.header-width h1, a{
     color: #FFFFFF;
 }
-.half-width img{
+.header-width img{
     width: 556.01px;
-    height: 438px;
+    height: 438px;   
 }
 .head{
     font-weight: 700;
     font-size: 50px;
 }
-.half-width a{
+.header-width a{
     text-decoration: none;
     width: 88px;
     height: 24px;
+    border: 1px solid salmon;
     font-weight: 500;
     background-color: #E02C6D;
     padding: 10px 24px;
 }
-/* .fa-arrow-right .button-icon{
-    width: 24px;
-    height: 24px;
-    margin-left: 120px;
-} */
+.animation:hover{
+    background-color: white;
+    color: goldenrod;
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
 
 /* -----------
      Main Maintain
@@ -75,6 +78,42 @@ header{
 .player-info{
     width: 300px;
     font-size: 16px;
+}
+.half-width{
+    display: flex;
+    margin-top: 200px;
+    background-image: url(all-plkayer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half{
+    width: 50%;
+    padding: 10px;
+}
+.color{
+    color: rgb(121, 103, 0);
+}
+.half img{
+    
+    width: 520px;
+    height: 420px;
+}
+.half h1{
+    font-size: 40px;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(skyblue, blue);
+    color: white;
+    font-weight: 700;
+}
+
+/* Another Item */
+.add{
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 /* Footer section */
